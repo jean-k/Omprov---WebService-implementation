@@ -42,6 +42,7 @@ namespace The_web_app
             }
         }
 
+        //Binder ihop data till gridviewn genom webservicen, samt kontrollerar viewstaten för att kolla om data skall sorteras upp eller ner basserad på vald kolumn
         private void BindData()
         {
             try
@@ -51,7 +52,6 @@ namespace The_web_app
                 DataView dv = new DataView(dt);
                 if (ViewState["sortexpression"] != null)
                 {
-                    
                     dv.Sort = ViewState["sortexpression"].ToString()
                     + " " + ViewState["sortdirection"].ToString();
                 }

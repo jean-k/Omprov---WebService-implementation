@@ -24,10 +24,9 @@ namespace The_web_app
         string connectionStringPath = @"Data Source=(LocalDB)\v11.0;AttachDbFilename='C:\Users\Jean\Documents\Visual Studio 2013\Projects\Arbetsprov\The web app\App_Data\MessageDB.mdf';Integrated Security=True";
         [WebMethod]
         //Sparar meddelandet till databasen
-        //Används av konsoll applikationen
+        //Används av konsoll applikationen, return siffran används för att kontrollera att det har gått att spara meddelandet i databasen
         public int SaveMessage(string msg, DateTime date)
         {
-            //Deklarerar row till 0, i konsoll appen så kommer man kunna se resultated baserat på om row är högre än 0
             int row = 0;
             try
             {

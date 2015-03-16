@@ -22,15 +22,6 @@ namespace The_web_app {
         protected global::System.Web.UI.HtmlControls.HtmlForm frmMessage;
         
         /// <summary>
-        /// scriptManager control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.ScriptManager scriptManager;
-        
-        /// <summary>
         /// grdViewMessages control.
         /// </summary>
         /// <remarks>

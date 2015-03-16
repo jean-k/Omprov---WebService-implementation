@@ -9,13 +9,7 @@
 <body>
     <form id="frmMessage" runat="server">
     <div>
-        <asp:ScriptManager ID="scriptManager" runat="server">
-            <Scripts>
-                <asp:ScriptReference  Path="~/MessageService.asmx"/>
-            </Scripts>
-        </asp:ScriptManager>
-        <%-- Anropar metod genom javascript
-            <input type="button" value="Refresh" onclick="GetMessages();" />--%>
+    
         <br />
         <asp:GridView ID="grdViewMessages" runat="server" AllowSorting="True" AutoGenerateColumns="False" OnSorting="grdViewMessages_Sorting">
            <Columns>
