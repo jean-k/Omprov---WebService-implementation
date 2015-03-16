@@ -27,7 +27,7 @@ namespace The_console_app
                 {
                     Console.WriteLine(" Write a message below!");
                     string message = Console.ReadLine();
-                    //Programmet avslutas när man skriver 'e' och trycker på Enter.
+                    //Programmet avslutas när man skriver 'exit' och trycker Enter.
                     if (message == "exit")
                     {
                         break;
